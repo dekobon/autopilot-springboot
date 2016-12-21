@@ -3,7 +3,7 @@
 In this repository you will find a small Java application. This application
 is written such that in can be managed by [ContainerPilot](https://www.joyent.com/containerpilot).
 
-This means that:
+## This means that
  * The Java web application (backed by Tomcat) is a [12-factor app](https://12factor.net/).
  * The application is not backgrounded like is typical with Tomcat.
  * The application can dynamically reload its configuration upon receiving a SIGHUP signal.
@@ -12,7 +12,8 @@ This means that:
    with zero downtime.
  * The application is ready to be installed into Docker and executed by ContainerPilot.
  
- This example requires:
+ 
+## This example requires
  
  * Java 8
  * Maven 3+
