@@ -13,5 +13,6 @@ This means that:
  * The application is ready to be installed into Docker and executed by ContainerPilot.
  
  This example requires:
+ 
  * Java 8
  * Maven 3+
